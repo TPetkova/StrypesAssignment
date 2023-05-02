@@ -1,20 +1,17 @@
 # StrypesAssignment
-This assignment contains test suit that tests some functionalities on the Home page(https://strypes.eu/) of the application. To run these steps you will need the following: 
+This assignment contains test suit that tests some of the basic functionalities on the Home page(https://strypes.eu/) of the web application. 
 
-Prerequisites:
-
-Java 11 or higher;
-Maven 3.9.1 or higher;
+Technologies Used:
+Java 11;
+Maven 3.9.1;
 JUnit 4;
 Selenium Server 4.9.0;
-Chromedriver.exe;
 
-Installation:
+Dependencies:
+Selenium WebDriver (version 4.9.0)
+Chromedriver.exe (version ChromeDriver 112.0.5615.49)
 
-Install Java 11 or higher and set up the JAVA_HOME environment variable;
-Install Maven 3.9.1 or higher and add the bin directory to your system's PATH environment variable;
-Download and install Selenium Server 4.9.0;
-Download and install Chromedriver.exe;
+Please note that it has been tested only under Chrome browser version 112.0.5615.138. If you want to use different browser please install the proper driver.
 
 File organization:
 src/test/java: Contains the test code;
